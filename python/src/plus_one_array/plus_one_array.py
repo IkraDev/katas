@@ -4,7 +4,6 @@
 class PlusOneArray():
     def calc(self, inputArr):
         reverseArr = inputArr[::-1]
-        print(f"input = {inputArr}, reversed = {reverseArr}")
         self.addAtIndex(reverseArr, 0)
         return reverseArr[::-1]
 
